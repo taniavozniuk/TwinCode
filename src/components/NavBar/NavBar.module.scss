@@ -1,0 +1,36 @@
+.navContent {
+  width: 56px;
+  height: 100vh;
+  background-color: #464646;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+
+  padding: 13px 0 14px 0;
+}
+
+.nav {
+  margin-top: 16px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.icons {
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+.logout {
+  margin-top: auto;
+  margin-bottom: 6px;
+  padding: 10px;
+}
