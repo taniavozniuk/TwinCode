@@ -7,7 +7,7 @@ export const NavBar = () => {
       <img alt="logo" src="/images/icon/logo.svg" className={styles.logo} />
       <nav className={styles.nav}>
         {navItem.map((item) => (
-          <li key={item.id}>
+          <li key={item.id} className={styles.li}>
             <img alt={item.name} src={item.image} className={styles.icons} />
           </li>
         ))}

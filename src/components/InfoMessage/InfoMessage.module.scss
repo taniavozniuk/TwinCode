@@ -1,0 +1,37 @@
+.ConMessage {
+  height: 56px;
+  padding: 0 16px;
+  background-color: #f1f9fe;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+  gap: 8px;
+}
+
+.hi {
+}
+
+.WTextBt {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.link{
+  color: #3A7FA1;
+}
+
+.closeBtn {
+  color: #192435;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  text-align: center;
+
+  svg {
+    font-size: 20px;
+  }
+}

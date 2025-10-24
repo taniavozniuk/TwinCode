@@ -1,0 +1,70 @@
+.ConDash {
+  background-color: #fefefe;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 0 20px 0 24px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.WUser {
+  display: flex;
+  gap: 6px;
+}
+
+.button {
+  padding: 8px !important;
+}
+
+.icon {
+  color: black;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  text-align: center;
+
+  svg {
+    font-size: 20px;
+  }
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.userInfo{
+    display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.img{
+  border-radius: 50%;
+}
+
+.name{
+  padding: 0 12px 0 8px;
+}
+
+.FormControl {
+  width: 130px !important;
+  
+
+  :global(.MuiInputBase-root) {
+    height: 32px !important;
+    // font-size: 14px;
+  }
+
+  :global(.MuiOutlinedInput-input) {
+    // padding: 4px 8px !important;
+  }
+
+  :global(.MuiInputLabel-root) {
+    top: auto !important;
+    // font-size: 13px;
+  }
+}
