@@ -32,7 +32,7 @@ export const DashBoard = () => {
             <img
               alt="user"
               className={styles.img}
-              src="/images/user/user.svg"
+              src="images/user/user.svg"
             />
             <p className={styles.name}>Phyllis Yang</p>
           </div>

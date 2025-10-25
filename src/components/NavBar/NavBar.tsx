@@ -5,7 +5,7 @@ import { navItem } from "./navItem";
 export const NavBar = () => {
   return (
     <div className={styles.navContent}>
-      <img alt="logo" src="/images/icon/logo.svg" className={styles.logo} />
+      <img alt="logo" src="images/icon/logo.svg" className={styles.logo} />
       <nav className={styles.nav}>
         {navItem.map((item) => (
           <li key={item.id} className={styles.li}>
@@ -25,7 +25,7 @@ export const NavBar = () => {
       </nav>
       <img
         alt="logout"
-        src="/images/icon/logout.svg"
+        src="images/icon/logout.svg"
         className={styles.logout}
       />
     </div>
