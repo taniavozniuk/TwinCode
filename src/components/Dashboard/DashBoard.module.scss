@@ -1,12 +1,19 @@
 .ConDash {
+  height: 56px;
   background-color: #fefefe;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: space-between;
   padding: 0 20px 0 24px;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  box-shadow: 1px solid #EAEAEA;
+  border-top: 1px solid #e1e9ef;
+  border-bottom: 1px solid #e1e9ef;
+}
+
+.title{
+  font-weight: 600;
+  font-size: bold;
 }
 
 .WUser {
@@ -30,29 +37,28 @@
   }
 }
 
-.user{
+.user {
   display: flex;
   align-items: center;
   gap: 13px;
 }
 
-.userInfo{
-    display: flex;
+.userInfo {
+  display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.img{
+.img {
   border-radius: 50%;
 }
 
-.name{
+.name {
   padding: 0 12px 0 8px;
 }
 
 .FormControl {
   width: 130px !important;
-  
 
   :global(.MuiInputBase-root) {
     height: 32px !important;

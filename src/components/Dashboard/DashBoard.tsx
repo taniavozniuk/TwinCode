@@ -18,7 +18,7 @@ export const DashBoard = () => {
   };
   return (
     <div className={styles.ConDash}>
-      <p>Dashboard</p>
+      <p className={styles.title}>Dashboard</p>
       <div className={styles.WUser}>
         <IconButton aria-label="close" className={styles.button}>
           <HelpOutlineIcon className={styles.icon} />

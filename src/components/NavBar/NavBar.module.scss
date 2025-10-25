@@ -21,21 +21,50 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-}
-
-.li:hover{
-  background-color: #56BBED;
+  box-sizing: border-box;
+  list-style: none;
 }
 
 .icons {
   width: 24px;
   height: 24px;
   padding: 10px;
+  border-radius: 4px;
 }
 
+.icons:hover {
+  background-color: #3a7fa1;
+}
+
+.icons:active {
+  background-color: #56bbed;
+}
+
+.icons:focus {
+  background-color: transparent;
+  border: 1px solid #56BBED;
+}
 
 .logout {
   margin-top: auto;
   margin-bottom: 6px;
   padding: 10px;
+}
+.tooltip {
+  background-color: #464646; 
+  color: #fff;
+  font-size: 0.875rem;
+  padding: 0 10px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+
+.tooltipPopper {
+  &.MuiTooltip-popper {
+    transform: translateX(10px) !important;
+  }
 }

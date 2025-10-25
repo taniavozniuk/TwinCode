@@ -1,3 +1,4 @@
+import { Tooltip } from "@mui/material";
 import styles from "./NavBar.module.scss";
 import { navItem } from "./navItem";
 
@@ -8,11 +9,25 @@ export const NavBar = () => {
       <nav className={styles.nav}>
         {navItem.map((item) => (
           <li key={item.id} className={styles.li}>
-            <img alt={item.name} src={item.image} className={styles.icons} />
+            <Tooltip
+              title={item.name}
+              arrow={false}
+              classes={{
+                tooltip: styles.tooltip,
+                popper: styles.tooltipPopper,
+              }}
+              placement="right"
+            >
+              <img alt={item.name} src={item.image} className={styles.icons} />
+            </Tooltip>
           </li>
         ))}
       </nav>
-      <img alt="logout" src="/images/icon/logout.svg" className={styles.logout} />
+      <img
+        alt="logout"
+        src="/images/icon/logout.svg"
+        className={styles.logout}
+      />
     </div>
   );
 };

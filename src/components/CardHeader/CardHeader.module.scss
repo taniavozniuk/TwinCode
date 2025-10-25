@@ -1,0 +1,46 @@
+.CHCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; // центрує горизонтально
+  align-items: center;
+    box-shadow: 1px solid #EAEAEA;
+  border-bottom: 1px solid #e1e9ef;
+  height: 134px;
+}
+
+.title {
+  font-weight: 500;
+  align-items: center;
+  text-align: center;
+  margin: 24px 0 16px 0;
+}
+.input {
+  width: 100%;
+  max-width: 922px;
+  height: 32px !important;
+  margin-bottom: 24px !important;
+
+  .MuiInputBase-root {
+    height: 32px;
+  }
+
+  .MuiOutlinedInput-root {
+    fieldset {
+      border-color: #ccc;
+      transition: border-color 0.2s ease;
+      padding-right: 8px !important; 
+    }
+
+    &:hover fieldset {
+      border-color: #888;
+    }
+
+    &.Mui-focused fieldset {
+      border-color: #2b74da;
+    }
+  }
+
+  input {
+    padding: 6px 8px;
+  }
+}
