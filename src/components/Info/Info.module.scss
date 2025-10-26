@@ -1,0 +1,49 @@
+.InfoCon {
+  display: flex;
+  flex-direction: column;
+  width: 341px;
+  height: 232px;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 12px 0 0 ;
+  background-color: #fefefe;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 24px;
+  height: 24px;
+  padding: 20px;
+  background-color: #f1f9fe;
+}
+
+.wrapAT {
+  margin-left: 12px;
+}
+
+.count {
+  margin: 0 0 2px 0;
+  font-weight: 600;
+  color: #21232c;
+}
+
+.name {
+  margin: 0;
+  color: #21232c;
+}
+
+.arrow {
+  width: 24px;
+  height: 24px;
+}

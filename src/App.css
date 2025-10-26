@@ -6,6 +6,12 @@
 .content {
   flex: 1;
   /* padding: 20px; */
-  background-color: #fff;
+
   overflow-y: auto;
+}
+
+.mian{
+  display: flex;
+  padding: 20px 23px ;
+  justify-content: space-between;
 }

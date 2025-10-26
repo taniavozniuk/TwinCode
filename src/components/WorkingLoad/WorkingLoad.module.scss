@@ -1,0 +1,73 @@
+.WCon {
+  width: 346px;
+    height: 232px;
+
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.workHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // gap: 134px;
+  padding: 0 12px 0 5px;
+  border-bottom: 1px solid #e4e5e6;
+}
+
+.titleHeared{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.wrapH {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+}
+
+.link {
+  text-decoration: none !important;
+  color: #56bbed;
+  cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+
+.mainCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainT {
+  margin: 17px 0;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.MainD {
+  margin: 17px 0;
+  font-weight: 450;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  width: 285px;
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  width: 106px !important;
+  height: 32px !important;
+  border: 1px solid #cacacc !important;
+  background-color: #ffffff !important;
+  margin: 0 !important;
+  font-family: "Inter", sans-serif;
+  color: #21232C !important;
+}

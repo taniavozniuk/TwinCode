@@ -1,0 +1,79 @@
+.RCon {
+  width: 605px;
+    height: 232px;
+
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.workHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // gap: 134px;
+  padding: 0 12px 0 5px;
+  border-bottom: 2px solid #e4e5e6;
+}
+
+.titleHeared {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.wrapH {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+}
+
+.link {
+  text-decoration: none !important;
+  color: #56bbed;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+.city{
+  padding: 10px 0 7px 10px;
+  border-bottom: 1px solid #C1C7CC;
+}
+
+.start {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+}
+
+.span{
+  padding: 0 10px ;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.miles{
+  margin: 0;
+}
+
+.types{
+  margin: 8px 0 0 0;
+  gap: 4px;
+  display: flex;
+}
+
+.typeTag{
+  border-radius: 100px;
+  background-color: #DFF0FC;
+  border: 1px solid #72ADFF;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0 6px;
+}
