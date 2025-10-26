@@ -25,6 +25,12 @@
   list-style: none;
 }
 
+.li {
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+  font-size: 12px;
+}
+
 .icons {
   width: 24px;
   height: 24px;
@@ -42,16 +48,24 @@
 
 .icons:focus {
   background-color: transparent;
-  border: 1px solid #56BBED;
+  border: 1px solid #56bbed;
 }
 
-.logout {
+.button {
   margin-top: auto;
   margin-bottom: 6px;
   padding: 10px;
+  background-color: transparent;
+  border: none;
 }
+
+// .logout {
+//   margin-top: auto;
+//   margin-bottom: 6px;
+//   padding: 10px;
+// }
 .tooltip {
-  background-color: #464646; 
+  background-color: #464646;
   color: #fff;
   font-size: 0.875rem;
   padding: 0 10px;
@@ -61,7 +75,6 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
-
 
 .tooltipPopper {
   &.MuiTooltip-popper {

@@ -10,6 +10,9 @@
 }
 
 .hi {
+  font-family: 'Inter', sans-serif;
+  font-weight: 450;
+  font-size: 14px;
 }
 
 .WTextBt {
@@ -22,6 +25,11 @@
 
 .link{
   color: #3A7FA1;
+    font-family: 'Inter', sans-serif;
+  font-weight: 450;
+  font-size: 14px;
+  text-decoration: none !important;
+  cursor: pointer;
 }
 
 .closeBtn {

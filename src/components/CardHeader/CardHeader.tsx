@@ -20,8 +20,6 @@ export const CardHeader = () => {
           },
         }}
       />
-
-      {/* <SearchIcon className={styles.icon} /> */}
     </div>
   );
 };

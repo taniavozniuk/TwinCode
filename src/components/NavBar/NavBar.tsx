@@ -23,11 +23,13 @@ export const NavBar = () => {
           </li>
         ))}
       </nav>
-      <img
-        alt="logout"
-        src="images/icon/logout.svg"
-        className={styles.logout}
-      />
+      <button className={styles.button}>
+        <img
+          alt="logout"
+          src="images/icon/logout.svg"
+          className={styles.logout}
+        />
+      </button>
     </div>
   );
 };
