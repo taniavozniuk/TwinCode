@@ -10,8 +10,11 @@
   overflow-y: auto;
 }
 
-.mian{
+.main{
+  margin: 0 auto;
+  max-width: 1440px;
   display: flex;
   padding: 20px 23px ;
-  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
 }

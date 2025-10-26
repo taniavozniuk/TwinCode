@@ -1,0 +1,6 @@
+@mixin link-style($color: #56bbed) {
+  text-decoration: none !important;
+  color: $color;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}

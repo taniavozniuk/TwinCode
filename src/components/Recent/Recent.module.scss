@@ -1,6 +1,8 @@
+@import "../../styles/mixins.scss";
+
 .RCon {
   width: 605px;
-    height: 232px;
+  height: 232px;
 
   background-color: #ffffff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -33,15 +35,12 @@
 }
 
 .link {
-  text-decoration: none !important;
-  color: #56bbed;
-  cursor: pointer;
-  font-family: "Inter", sans-serif;
+  @include link-style();
 }
 
-.city{
+.city {
   padding: 10px 0 7px 10px;
-  border-bottom: 1px solid #C1C7CC;
+  border-bottom: 1px solid #c1c7cc;
 }
 
 .start {
@@ -51,28 +50,28 @@
   margin: 0;
 }
 
-.span{
-  padding: 0 10px ;
+.span {
+  padding: 0 10px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 23px;
 }
 
-.miles{
+.miles {
   margin: 0;
 }
 
-.types{
+.types {
   margin: 8px 0 0 0;
   gap: 4px;
   display: flex;
 }
 
-.typeTag{
+.typeTag {
   border-radius: 100px;
-  background-color: #DFF0FC;
-  border: 1px solid #72ADFF;
-  font-family: 'Inter', sans-serif;
+  background-color: #dff0fc;
+  border: 1px solid #72adff;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
   padding: 0 6px;
